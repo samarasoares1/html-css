@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            width: 300px;
+            box-shadow: 6px 6px 0px 0px rgba(128, 128, 128, 0.404);
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        div{
+            display: inline-block;
+            padding: 30px;
+        }
+    
+        img{
+            border: 2px solid black;
+            box-shadow: 6px 6px 0px 0px rgba(128, 128, 128, 0.404);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Tabelas</h1>
+    <div>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td colspan="4">A</td>
+                <td rowspan="4">B</td>
+            </tr>
+            <tr>
+                <td rowspan="4">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td colspan="4">N</td>
+            </tr>
+        </table>
+    </div>
+    <div id="teclado">
+        <table>
+            <tr>
+                <td>Num <br>Lock</td>
+                <td>/</td>
+                <td>*</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>8</td>
+                <td>7</td>
+                <td rowspan="2">+</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>5</td>
+                <td>4</td>
+                
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+                <td rowspan="2">Enter</td>
+            </tr>
+            <tr>
+                <td colspan="2">0</td>
+                <td>.</td>
+            </tr>
+        </table>
+    </div>
+    <h2>Esboço feito no Excel</h2>
+        <img src="Imagem do WhatsApp de 2025-01-18 à(s) 18.50.10_454733ac.jpg" alt="Esboço do Exercício">
+</body>
+</html>

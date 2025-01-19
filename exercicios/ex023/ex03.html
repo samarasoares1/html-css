@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Tempo</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+        }
+        table{
+            margin: 0px;
+            border-collapse: collapse;
+            box-shadow: 6px 6px 0px 0px rgba(128, 128, 128, 0.493);
+        }
+        h1{
+            text-align: center;
+           width: 400px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.4em;
+        }
+        th{
+            background-color: lightblue;
+        }
+        td{
+            background-color: rgba(211, 211, 211, 0.534);
+        }
+        img{
+            width: 35px;
+            height: 35px;
+        }
+        div{
+
+            padding-bottom: 70px;
+        }
+        .link > a{
+            text-align: left;
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Previsão do tempo para a semana</h1>
+    <div>
+        <table>
+            <tr>
+                <th>Dia</th>
+                <th>Tempo</th>
+                <th>Mínima</th>
+                <th>Máxima</th>
+            </tr>
+            <tr>
+                <td>Domingo</td>
+                <td><img src="imagens/nuvemsol.png" alt="Sol com Nuvens"></td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Segunda</td>
+                <td><img src="imagens/ensolarado.png" alt="Ensolarado"></td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Terça</td>
+                <td><img src="imagens/nuvemsol.png" alt="Sol com Nuvens"></td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td><img src="imagens/nuvem.png" alt="Nuvens"></td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Quinta</td>
+                <td><img src="imagens/vento.png" alt="Vento"></td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Sexta</td>
+                <td><img src="imagens/ensolarado.png" alt="Ensolarado"></td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+            <tr>
+                <td>Sábado</td>
+                <td><img src="imagens/nuvem.png" alt="Nuvens"></td>
+                <td>27°</td>
+                <td>32°</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th colspan="2"><br></th>
+                
+                <th colspan="4">Demografia</th>
+            </tr>
+            <tr>
+                <th colspan="2"><br></th>
+                <th>Meninos</th>
+                <th>Meninas</th>
+                <th>Professor</th>
+            </tr>
+            <tr>
+                <td rowspan="4">Turma</td>
+                <td>A</td>
+                <td>20</td>
+                <td>5</td>
+                <td rowspan="2">João Perdro</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>21</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>25</td>
+                <td>2</td>
+                <td rowspan="2">Maria João</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>20</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th colspan="2">Total</th>
+                <td>86</td>
+                <td>10</td>
+                <td>2</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h1>Catálogo da Metal & Cia</h1>
+        <table>
+            <tr>
+                <th colspan="4">Tabela de preços</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Seminovos</td>
+                <td>Trompete</td>
+                <td>Trombone</td>
+                <td>Trompa</td>
+            </tr>
+            <tr>
+                <td>$500</td>
+                <td>$650</td>
+                <td>$650</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="link"><a href="link">Visite nosso site</a></th>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>

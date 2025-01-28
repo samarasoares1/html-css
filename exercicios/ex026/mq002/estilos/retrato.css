@@ -4,8 +4,8 @@
 /* Aparelho em pé (portrait)*/
 
 body{
-    background: url(../cev-portrait.jpg);
+    background: url(../retrato.jpg);
     background-position: center bottom;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }

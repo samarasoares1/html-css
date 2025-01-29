@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    main{
+        max-width: 768px;
+    }
+    header{
+        background-color: gray;
+    }
+    span#burguer{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+    li{
+        display: inline-block;
+    }
+}
